@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Fetch dependencies
+. ~/oct/device/samsung/jflte/fetch.sh &&
+
+#Start the build
+. build/envsetup.sh &&
+brunch jflte
